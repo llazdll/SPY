@@ -9,7 +9,7 @@ import {
     return (
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>چه جوری بازی کنم</AccordionTrigger>
+          <AccordionTrigger>؟چه جوری بازی کنم</AccordionTrigger>
           <AccordionContent className="p-8 text-right">
           دو گروه وجود دارد جاسوس و شهروند بازی به این صورت است که به گروه شهروند یک کلمه نمایش داده می‌شود و به گروه جاسوس یک راهنمایی راجع به اون کلمه مایش داده می‌شود . <br/>گروه جاسوس باید کلمه مورد نظر را حدس بزنند و گروه شهروند باید جاسوس‌ها را پیدا کن
           </AccordionContent>
