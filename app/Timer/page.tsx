@@ -57,12 +57,12 @@ function Timer() {
             </div>
             <div className='flex justify-evenly py-40'>
                 <Button onClick={winsHandler}>
-                    <Link href="/">
+                    <Link href="/SeeYourRole">
                         City Wins
                     </Link>
                 </Button>
                 <Button onClick={winsHandler}>
-                    <Link href="/">
+                    <Link href="/SeeYourRole">
                         spy Wins
                     </Link>
                 </Button>
