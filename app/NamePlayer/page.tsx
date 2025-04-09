@@ -26,7 +26,7 @@ function NamePlayer() {
   };
   return (
     <>
-      <div className="flex w-full items-center space-x-2">
+      <div className="flex w-full items-center space-x-2 border-2 p-4 border-black rounded-md">
         <Input type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}

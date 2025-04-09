@@ -23,7 +23,7 @@ export default function RootLayout({
             enableSystem  
             disableTransitionOnChange  
           >  
-            <div className="mx-auto w-[80%] py-10">  
+            <div className="mx-auto w-[80%] py-10 select-none">  
               <main className={silkscreen.className}> 
                 <Navbar />  
                 {children}  
