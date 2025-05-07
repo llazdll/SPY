@@ -4,6 +4,7 @@ import image3 from '../image/Designer.png'
 import { HowToPlay } from "@/components/HowToPlay";
 import Card from "@/components/Card";
 import Next from "@/components/Next";
+import Hint from '@/components/Hint';
 export default function Home() {
   return (
     <>
@@ -12,6 +13,8 @@ export default function Home() {
         <Card image={image2} imageAlt="Player picture" title="Player" />
         <Card image={image3} imageAlt="Time picture" title="Time" />
       </div>
+      <Hint/>
+
       <Next/>
       <HowToPlay/>
     </>
