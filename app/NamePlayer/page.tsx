@@ -26,12 +26,13 @@ function NamePlayer() {
   };
   return (
     <>
-      <div className="flex w-full items-center space-x-2 border-2 p-4 border-black rounded-md">
+      <div className="flex gap-5 md:flex-row w-full flex-col items-center space-x-2 border-2 p-4 border-x-green-950 rounded-md">
         <Input type="text"
           value={name}
+          className='w-full focus:ring-offset-2 border-2  focus:border-green-500'
           onChange={(e) => setName(e.target.value)}
-          placeholder="Example:iiazdii" />
-        <Button type="submit" variant="link" disabled={names.length == player} onClick={handleAddName} className='hover:bg-green-500'>Add to game</Button>
+          placeholder="“E.g:MMD”" />
+        <Button type="submit" variant="link" disabled={names.length == player} onClick={handleAddName} className='border-2 border-dashed border-green-500 hover:bg-green-500 w-full md:w-auto'>Add +</Button>
       </div>
 
         <p className='opacity-50 ml-5'>add {NamesInputCount-NameLength} more player</p>
@@ -41,7 +42,7 @@ function NamePlayer() {
           {names.map((n, index) => (
             <li key={index} className="p-3 flex justify-between items-center w-full border-2 rounded-lg">
               <span>{n}</span>
-              <Button variant="link"  className='hover:bg-red-500' onClick={() => handleDeleteName(n)}>Delete</Button>
+              <Button variant="link"  className='border-dashed border-red-400 border-2 hover:border-0 transition-all ease-out hover:bg-red-500' onClick={() => handleDeleteName(n)}>Delete</Button>
             </li>
           ))}
         </ul>
