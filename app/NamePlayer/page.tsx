@@ -26,7 +26,7 @@ function NamePlayer() {
   };
   return (
     <>
-      <div className="flex gap-5 md:flex-row w-full flex-col items-center space-x-2 border-2 p-4 border-x-green-950 rounded-md">
+      <div className="flex gap-5 md:flex-row w-full flex-col items-center space-x-2 border-2 p-4 border-x-white/50 rounded-md">
         <Input type="text"
           value={name}
           className='w-full focus:ring-offset-2 border-2  focus:border-green-500'
