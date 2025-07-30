@@ -13,7 +13,7 @@ function Hint() {
                 id="hint-toggle"
                 checked={isHintVisible}
                 onCheckedChange={() => dispatch(toggleHint())}
-                className="p-3"
+                className="scale-150"
             />
             <label
                 htmlFor="hint-toggle"
